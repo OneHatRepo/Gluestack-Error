@@ -4,14 +4,7 @@
   "main": "node_modules/expo/AppEntry.js",
   "homepage": "/admin/",
   "scripts": {
-    "web": "DARK_MODE=media EXPO_NO_CLIENT_ENV_VARS=1 npx expo start --clear --web -p 8083",
-    "build": "npx expo export:web",
-    "build2": "npx expo export -p web",
-    "serve": "npx serve dist",
-    "test": "npx cypress open",
-    "test1": "DEBUG=cypress:* npx cypress open",
-    "android": "DARK_MODE=media undefined",
-    "ios": "DARK_MODE=media undefined"
+    "web": "npx expo start --clear --web"
   },
   "dependencies": {
     "@expo/react-native-action-sheet": "^4.0.1",
