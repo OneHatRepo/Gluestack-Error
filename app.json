@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "onehatui-admin",
+    "description": "OneHatUi Admin App",
+    "slug": "onehatui-admin",
+    "scheme": "onehatuiadmin",
+    "backgroundColor": "#ffffff",
+    "owner": "onehat",
+    "privacy": "unlisted",
+    "version": "0.1.0",
+    "jsEngine": "hermes",
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "platforms": [
+      "web"
+    ],
+    "orientation": "portrait",
+    "primaryColor": "#00f",
+    "icon": "./src/Assets/icon.png",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "splash": {
+      "image": "./src/Assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "userInterfaceStyle": "automatic",
+    "web": {
+      "favicon": "./src/Assets/favicon.png",
+      "bundler": "metro"
+    },
+    "experiments": {
+      "tsconfigPaths": true
+    },
+    "plugins": [
+      "expo-font",
+      "expo-router"
+    ]
+  }
+}
