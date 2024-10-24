@@ -6,8 +6,15 @@ import { Text } from 'react-native';
 export default function App() {
 
 	return <GluestackUIProvider mode="light">
-				<Box onLayout={() => alert('worked!')}>
-					<Text>Here</Text>
+				<Box
+					className="p-[10px]"
+				>
+					<Text>10px</Text>
+				</Box>
+				<Box
+					className="p-[11px]"
+				>
+					<Text>11px</Text>
 				</Box>
 			</GluestackUIProvider>;
 }
